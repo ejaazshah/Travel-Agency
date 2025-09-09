@@ -1,29 +1,12 @@
-Travel Agency Website
+# React + Vite
 
-This is a Travel Agency Website built with React (JSX) and styled using Tailwind CSS. The goal of this project is to create a modern, responsive, and user-friendly platform where users can explore destinations, view offers, and book tickets online.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-✨ Features
+Currently, two official plugins are available:
 
-Responsive design (works on mobile, tablet, desktop)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Home page with hero section and featured destinations
+## Expanding the ESLint configuration
 
-Destinations page with details, filters, and offers
-
-Booking form for tickets (with basic PHP handling)
-
-Contact page with form and map
-
-Reusable React components for easy updates
-
-🛠️ Tech Stack
-
-React (JSX) – for building UI components
-
-Tailwind CSS – for fast and clean styling
-
-JavaScript (ES6+) – logic and interactivity
-
-PHP (small parts) – for handling forms / backend tasks
-
-Git & GitHub – version control and hosting
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
